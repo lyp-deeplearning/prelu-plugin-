@@ -17,6 +17,15 @@ parser->setPluginFactory(pluginFactory);
 PluginFactory parserPluginFactory;
 engine_Gender = runtime->deserializeCudaEngine((const void*)engine_data.get(), file_size, &parserPluginFactory);
 ```
+======================================================================
+https://blog.csdn.net/qq_35759574/article/details/88415101
+
+出现的函数：
+std::transform(strName.begin(),strName.end(),strName.begin(),::tolower);
+把层的name全部转换成小写字母，然后利用这个小写字母去查找
+
+×××C++里面的overide的用法，未完待续
+
 
  
 
